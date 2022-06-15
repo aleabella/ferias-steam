@@ -8,7 +8,7 @@ return(
 
     <div class="nav-group">
     
-    <a class="one-nav" href="index.html"><img src={Logo}></img></a>
+    <a class="one-nav" href="index.html"><img src={Logo} alt="Logo"></img></a>
     <a class="two-nav item sin-login2" href="./src/pages/estudiantes/login-estudiantes.html"><i class="fa-solid fa-circle-user"></i></a>
 
     <label for="clic-menu" class="three-nav" href="meni" ><i class="fa-solid fa-bars"></i></label>
