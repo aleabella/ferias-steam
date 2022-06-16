@@ -8,7 +8,7 @@ import Foto2_7 from "./2_7 feria.jpg"
 import Foto2_8 from "./2_8 feria.jpg" 
 import videosegunda from "./rnvideoproject/videosegunda.mp4"
 import icono from "../uno/bx-calendar 2.png"
-import ferias from "../../pages/Ferias"
+import { Link } from "react-router-dom"
 
 function Dos(){
     return (
@@ -19,7 +19,7 @@ function Dos(){
     </video>
       </div>
     <div class="tituloFeria">
-    <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
+    <Link to='/ferias-steam' id="back"><i class="fa-solid fa-arrow-left"></i></Link>
         <h1>Energias Renovables</h1>
         <br/>
         <h2><img src={icono} alt="icono" />2018</h2>

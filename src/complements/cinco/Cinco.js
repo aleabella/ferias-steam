@@ -8,7 +8,7 @@ import Foto5_7 from "./5_7.jpg"
 import Foto5_8 from "./5_8.jpg" 
 import videoquinta from "./quintaferia.mp4"
 import iconocalendario from "../uno/bx-calendar 2.png"
-import ferias from "../../pages/Ferias"
+import { Link } from "react-router-dom"
 function Cinco (){
     return (
         <>
@@ -20,7 +20,7 @@ function Cinco (){
     </video>
       </div>
     <div class="tituloFeria">
-        <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
+         <Link to='/ferias-steam' id="back"><i class="fa-solid fa-arrow-left"></i></Link>
         <h1>Energias Renovables</h1>
         <br/>
         <h2><img src={iconocalendario} alt="calendarioicon" />2021</h2>
