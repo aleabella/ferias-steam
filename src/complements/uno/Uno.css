@@ -133,3 +133,16 @@
         flex:100%;
     }
 }
+/*back bottom*/
+#back{
+    color: white;
+    background-color: var(--purple-color);
+    border-radius: 1rem;
+    border-color: var(--purple-color);
+    margin: 2% 10% 0%;
+}
+
+#back:hover{
+    color: var(--amarillo);
+    border-color: var(--amarillo);
+}

@@ -8,6 +8,8 @@ import Foto1_7 from "./1_7 feria.jpg"
 import Foto1_8 from "./1_8 feria.jpg" 
 import Foto1_9 from "./1feria.png" 
 import './Uno.css'
+import icono from "./bx-calendar 2.png"
+import ferias from "../../pages/Ferias"
 function Uno (){
     return (
         <>
@@ -18,10 +20,11 @@ function Uno (){
  <div class="tituloFeria">
  <img class="zoom" alt="Foto1_9" src={Foto1_9} className="headerindex"/>
      <h1>Primera Feria STEAM</h1>
+     <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
      <a href="./ferias.html"><button class="back"><i class="fa-solid fa-arrow-left"></i></button></a>
      <h1>Nuestros Proyectos</h1>
      <br/>
-     <h2><img src="..//assets/img/bx-calendar 2.png" alt="calendarioicon" />2017</h2>
+     <h2><img src={icono} alt="icono" />2017</h2>
      <hr/>
      <h3>Descripción de la Feria:</h3> 
      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsum velit ut rerum reprehenderit culpa ullam! Ducimus, hic ut aliquid qui accusamus et porro repudiandae voluptates ipsa consequatur dolore ab.

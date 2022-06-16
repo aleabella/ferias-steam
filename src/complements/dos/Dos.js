@@ -7,6 +7,8 @@ import Foto2_6 from "./2_6 feria.jpg"
 import Foto2_7 from "./2_7 feria.jpg" 
 import Foto2_8 from "./2_8 feria.jpg" 
 import videosegunda from "./rnvideoproject/videosegunda.mp4"
+import icono from "../uno/bx-calendar 2.png"
+import ferias from "../../pages/Ferias"
 
 function Dos(){
     return (
@@ -17,10 +19,10 @@ function Dos(){
     </video>
       </div>
     <div class="tituloFeria">
-        <a href="./ferias.html"><button class="back"><i class="fa-solid fa-arrow-left"></i></button></a>
+    <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
         <h1>Energias Renovables</h1>
         <br/>
-        <h2><img src="..//assets/img/bx-calendar 2.png" alt="calendarioicon" />2017</h2>
+        <h2><img src={icono} alt="icono" />2018</h2>
      <hr/>
      <h3>Descripción de la Feria:</h3> 
      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A ipsum velit ut rerum reprehenderit culpa ullam! Ducimus, hic ut aliquid qui accusamus et porro repudiandae voluptates ipsa consequatur dolore ab.
