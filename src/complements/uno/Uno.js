@@ -9,7 +9,8 @@ import Foto1_8 from "./1_8 feria.jpg"
 import Foto1_9 from "./1feria.png" 
 import './Uno.css'
 import icono from "./bx-calendar 2.png"
-import ferias from "../../pages/Ferias"
+import { Link } from "react-router-dom"
+
 function Uno (){
     return (
         <>
@@ -20,8 +21,8 @@ function Uno (){
  <div class="tituloFeria">
  <img class="zoom" alt="Foto1_9" src={Foto1_9} className="headerindex"/>
      <h1>Primera Feria STEAM</h1>
-     <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
-     <a href="./ferias.html"><button class="back"><i class="fa-solid fa-arrow-left"></i></button></a>
+     <Link to='/ferias-steam' id="back"><i class="fa-solid fa-arrow-left"></i></Link>
+     
      <h1>Nuestros Proyectos</h1>
      <br/>
      <h2><img src={icono} alt="icono" />2017</h2>

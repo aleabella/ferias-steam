@@ -7,13 +7,13 @@ import Foto3_6 from "./3_6 feria.jpg"
 import Foto3_7 from "./3_7 feria.jpg" 
 import Foto3_8 from "./3_8 feria.jpg" 
 import icono from "../uno/bx-calendar 2.png"
-import ferias from "../../pages/Ferias"
+import { Link } from "react-router-dom"
 function Tres (){
     return (
         <>
 
         <div class="tituloFeria">
-        <button onClick={ferias} id="back" className="fa-solid fa-arrow-left"></button>
+        <Link to='/ferias_steam' id="back"><i class="fa-solid fa-arrow-left"></i></Link>
             <h1>Máquina de Goldberg</h1>
             <br/>
             <h2><img src={icono} alt="icono" />2019</h2>
